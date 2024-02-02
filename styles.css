@@ -57,13 +57,13 @@ nav a {
 
 .registration-form h2 {
     text-align: center;
-    color: #8B4513; /* Dark Brown */
+    color: #8B4513; 
 }
 
 .registration-form label {
     display: block;
     margin-top: 10px;
-    color: #8B4513; /* Dark Brown */
+    color: #8B4513; 
 }
 
 .registration-form input {
@@ -75,7 +75,7 @@ nav a {
 }
 
 .registration-form button {
-    background-color: #FF0000; /* Cherry Red */
+    background-color: #FF0000;
     color: white;
     padding: 10px;
     border: none;
@@ -84,10 +84,42 @@ nav a {
 }
 
 .registration-form button:hover {
-    background-color: #8B0000; /* Darker shade of red for hover effect */
+    background-color: #8B0000;
 }
 
 img {
     width: 100%;
     height: auto;
   }
+
+  .flex-containe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+   }
+
+   .products {
+    width: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: ;
+    padding: 6px;
+    
+   }
+   .Price {
+    color:#8B0000;
+
+    }
+    
+    .product-button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #FF0000;
+
+     }
