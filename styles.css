@@ -92,13 +92,15 @@ img {
     height: auto;
   }
 
-  .flex-containe {
+  .flex-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     
+    
 
    }
+   
 
    .products {
     width: 150px;
