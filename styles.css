@@ -38,11 +38,16 @@ header {
 
 /*header image*/
 img {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
   
-  padding: 30px;
   
   
 }
+
+
+
 /*navigation*/
 
 nav ul {
@@ -164,10 +169,6 @@ nav a:hover {
 
 
 
-img {
-    width: 100%;
-    height: auto;
-  }
 
 
 
@@ -196,6 +197,7 @@ img {
 
     
    }
+   
    .Price {
     color:#FF0000;
     font-size: 20px;
@@ -209,6 +211,8 @@ img {
         padding: 12px;
         color: white;
         background-color: #FF0000;
+        max-width: 100px;
+        text-align: center;
 
      }
 
