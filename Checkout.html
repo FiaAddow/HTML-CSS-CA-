@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-**your-sha-hash**" crossorigin="anonymous">
+
     <title>Checkout</title>
 </head>
 <body>
@@ -15,12 +17,11 @@
     <title>Checkout</title>
 </head>
 <body>
+    <img class="header-img" src="/images/SquareEyes_Logo.png">
     <header>
-        <img src="/images/SquareEyes_Logo.png">
         <nav>
             <ul>
                 <li> <a href="/index.html">Home</a> </li>
-                <li> <a href="/register.html">Register</a> </li>
                 <li> <a href="/products.html">Movies</a> </li>
                 <li> <a href="/Checkout.html">checkout</a> </li>
             </ul>
@@ -41,18 +42,18 @@
           <link rel="stylesheet" href="styles.css">
         </head>
         <body>
-
+            
+            <div class="flexcontainer"> 
             <div class="container">
-            <div class="products">
-                <img src="/images/Square_Eyes_Cover1.jpg" alt="movie-poster">
-                <h1> Movie Title</h1>
-                <p class="Price">200kr</p>
-                <p>some text about the movie and why they should watch it</p>
-               </div> 
+                <div class="products">
+                    <img src="/images/Square_Eyes_Cover1.jpg" alt="movie-poster">
+                    <h1> Movie Title</h1>
+                    <p class="Price">200kr</p>
+                    <p>some text about the movie and why they should watch it</p>
+                </div> 
             </div>
         
           <div class="container">
-        
             <div class="heading">
               <h1>Payment details</h1>
             </div>
@@ -71,31 +72,33 @@
               <div class="security">
                 <label for="cvc">CVC</label>
                 <input type="text" minlength="3" maxlength="4" id="cvc" name="cvc" placeholder="XXX" />
-              </div>
             </div>
-          
-            <a href="success.html" class="btn">
-                <span id="submit">Submit</span>
-              </a>
-          </div>
+        </div>
         
-          
-          
-          
-        </main>
-        <footer>
-            <div class="footer-content">
-                <div class="footer-item">
-                    <h3>About</h3>
-                    <p>Discover and enjoy high-quality films at SquareEyes. Your go-to platform for unique and entertaining content.</p>
-                </div>
-                <div class="footer-item">
-                    <h3>Contact</h3>
-                    <p>Email: info@squareeyes.com</p>
-                    <p>Phone: +1 (555) 123-4567</p>
-                </div>
-            </div>
-        </footer>
+        <a href="success.html" class="btn">
+            <span id="submit">Submit</span>
+        </a>
+    </div>
+</div>
+</div>
+</main>
+<footer>
+    <div class="footer-content">
+        <div class="footer-item">
+            <a href="/about.html">
+                <h3>About</h3>
+            </a>
+            <p>Discover and enjoy high-quality films at SquareEyes. Your go-to platform for unique and entertaining content.</p>
+        </div>
+        <div class="footer-item">
+            <a href="/contact.html">
+            <h3>Contact</h3>
+            </a>
+            <p>Email: info@squareeyes.com</p>
+            <p>Phone: +1 (555) 123-4567</p>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>

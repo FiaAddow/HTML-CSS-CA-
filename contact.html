@@ -3,46 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<title>Contact</title>
 </head>
 <body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ContactS</title>
-</head>
-<body>
+    <img class="header-img" src="/images/SquareEyes_Logo.png">
     <header>
-        <img src="/images/SquareEyes_Logo.png">
         <nav>
             <ul>
                 <li> <a href="/index.html">Home</a> </li>
-                <li> <a href="/register.html">Register</a> </li>
                 <li> <a href="/products.html">Movies</a> </li>
                 <li> <a href="/Checkout.html">checkout</a> </li>
             </ul>
         </nav>
     </header>
     
-</body>
-</html>
-
-
-    <main>
-       
+    </html>
+    
+    <main> 
+        <section> 
+            <div class="flex-container">     
+            <div class="container">
+                <h1>Contact Us</h1>
+            <p>If you have any questions or inquiries, feel free to reach out to us using the form below or through our contact information.</p>
+            <form>
+                        <div class="flex-container">     
+                            <div class="container">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required>
+        
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" required>
+        
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+        
+                        <div class="flex-container">
+         
+                            <a href="contact-success.html" class="btn">
+                               <span id="submit">Send</span>
+                           </a>
+                       </div> 
+                    </form>
+                    </div>
+                    </div>
+          
+            </div>
+            </div>
+         </section>
+        
         
     </main>
+</body>
     <footer>
         <div class="footer-content">
             <div class="footer-item">
-                <h3>About</h3>
+                <a href="/about.html">
+                    <h3>About</h3>
+                </a>
                 <p>Discover and enjoy high-quality films at SquareEyes. Your go-to platform for unique and entertaining content.</p>
             </div>
             <div class="footer-item">
+                <a href="/contact.html">
                 <h3>Contact</h3>
+                </a>
                 <p>Email: info@squareeyes.com</p>
                 <p>Phone: +1 (555) 123-4567</p>
             </div>

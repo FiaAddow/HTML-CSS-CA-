@@ -1,4 +1,4 @@
-/*colors*/
+/*Overall styleling*/
 
 
 body {
@@ -12,13 +12,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Baloo', cursive;
 }
 
-header {
-    background-color: #00BFFF;
-    color: #ffffff;
-    text-align: center;
-    padding: 15px;
- 
-}
+
+
 
 main {
     background-color: #ffdab9;
@@ -28,12 +23,34 @@ main {
     align-items: center;
 }
 
+/*header */
+
+header {
+  background-color: #00BFFF;
+  color: #ffffff;
+  text-align: center;
+  padding: 0px;
+  
+
+  
+
+}
+
+/*header image*/
+img {
+  
+  padding: 30px;
+  
+  
+}
 /*navigation*/
 
 nav ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
+    background-color: #00BFFF;
+    
 
     
    
@@ -41,16 +58,33 @@ nav ul {
 }
 
 
+a {
+  display: block;
+  padding: 5px;
+  background-color: #00BFFF;
+
+}
+
 
 nav a {
    
-    color: #373736;
+    color: #ffffff;
     text-decoration: none;
     border: 2px solid 373736;
     font-size: 30px;
+    display: block;
+    padding: 10px 15px;
+    font-size: 25px;
+    transition: background-color 0.3s, color 0.3s;
     
 }
+nav a:hover {
+  background-color: #ffffff;
+  color: #00BFFF;
+}
   
+/*flexbox*/
+
   .container {
     display: flex;
     flex-direction: column;
@@ -79,6 +113,8 @@ nav a {
     font-size: 2rem;
     font-weight: 800;
   }
+
+  /*checkout*/
   
   label {
     font-weight: 600;
@@ -97,7 +133,7 @@ nav a {
   input:focus {
     outline: none;
     background: #F9E450;
-    border: 3px solid #1B1B1B;
+    border: 2px solid #1B1B1B;
     border-radius: 16px;
   }
   
@@ -116,21 +152,23 @@ nav a {
   }
   
   .btn {
-    background-color: #F9E450;
+    text-decoration: none;
+    background-color:#ffd900b6;
     border: 2px solid #1B1B1B;
     border-radius: 16px;
     padding: 16px 32px 16px 16px;
     text-align: center;
-    font-weight: 800;
+    font-size: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
     cursor: pointer;
     transition: 0.16s ease-out;
   }
   
   .btn:hover {
-    background: #FFBB38;
+    background: #ff69b4c8;
     border: 4px solid #1B1B1B;
-    border-radius: 16px;
+    border-radius: 160px;
   }
   
   #exit {
@@ -138,42 +176,7 @@ nav a {
   }
   
 
-.registration-form {
-    max-width: 400px;
-    width: 100%;
-}
 
-.registration-form h2 {
-    text-align: center;
-    color: #8B4513; 
-}
-
-.registration-form label {
-    display: block;
-    margin-top: 10px;
-    color: #8B4513; 
-}
-
-.registration-form input {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    box-sizing: border-box;
-}
-
-.registration-form button {
-    background-color: #FF0000;
-    color: white;
-    padding: 10px;
-    border: none;
-    width: 100%;
-    cursor: pointer;
-}
-
-.registration-form button:hover {
-    background-color: #8B0000;
-}
 
 img {
     width: 100%;
@@ -212,14 +215,13 @@ img {
     
     .product-button {
         border: none;
-        outline: 0;
+     text-decoration: none;
         padding: 12px;
         color: white;
         background-color: #FF0000;
 
      }
 
-     /* Existing styles remain the same */
 
 footer {
     background-color: #00BFFF;
